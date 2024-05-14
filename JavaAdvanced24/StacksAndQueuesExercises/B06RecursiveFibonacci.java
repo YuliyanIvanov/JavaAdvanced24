@@ -22,6 +22,5 @@ public class B06RecursiveFibonacci {
             stack.push(sum);
         }
         System.out.println(stack.peek());
-
     }
 }
