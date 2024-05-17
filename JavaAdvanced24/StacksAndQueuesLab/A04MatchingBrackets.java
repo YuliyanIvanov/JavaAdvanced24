@@ -18,7 +18,8 @@ public class A04MatchingBrackets {
                 stack.push(i);
             } else if (currentChar == ')') {
                 int startIndex = stack.pop();
-                String subExpression = expression.substring(startIndex, i + 1);
+                String subExpression = expression.substring(startIndex,
+                        i + 1);
                 System.out.println(subExpression);
             }
         }
