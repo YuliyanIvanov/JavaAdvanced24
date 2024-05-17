@@ -1,14 +1,13 @@
 package StacksAndQueuesLab;
 
 import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.Scanner;
 
 public class A05PrinterQueue {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Deque<String> queue = new ArrayDeque<>();
+        ArrayDeque<String> queue = new ArrayDeque<>();
 
         while (true) {
             String command = scanner.nextLine();
