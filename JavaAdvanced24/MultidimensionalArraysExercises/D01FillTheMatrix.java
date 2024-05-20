@@ -22,7 +22,6 @@ public class D01FillTheMatrix {
                 fillPatternB(matrix, size);
                 break;
             default:
-                System.out.println("Invalid pattern type");
                 return;
         }
 
