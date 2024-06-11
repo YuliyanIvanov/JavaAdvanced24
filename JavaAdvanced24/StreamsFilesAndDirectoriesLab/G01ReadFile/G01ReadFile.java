@@ -1,4 +1,4 @@
-package StreamsFilesAndDirectoriesLab;
+package StreamsFilesAndDirectoriesLab.G01ReadFile;
 
 import java.io.FileInputStream;
 import java.io.IOException;
