@@ -6,7 +6,7 @@ import java.io.IOException;
 public class G01ReadFile {
     public static void main(String[] args) throws IOException {
 
-        String path = "/home/baldar/Documents/GitHub/JavaAdvanced24/JavaAdvanced24/StreamsFilesAndDirectoriesLab/input.txt";
+        String path = "/home/baldar/Documents/GitHub/JavaAdvanced24/JavaAdvanced24/StreamsFilesAndDirectoriesLab/G01ReadFile/input.txt";
 
         FileInputStream inputStream = new FileInputStream(path);
 
